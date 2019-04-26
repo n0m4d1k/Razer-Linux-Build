@@ -1,0 +1,12 @@
+####################
+#     Manjaro      #
+#    Setup For     #
+#  Blade 15A 2019  #
+####################
+
+sudo pacman -Syu 
+sudo pacman -S linux419-headers ###Installs Linux Headers 4.19###
+sudo pacman -S pacaur ###Installs pacaur###
+pacaur --sync openrazer-meta ###Installs openrazer drivers for linux: https://openrazer.github.io/###
+pacaur -S polychromatic ###Installs Razer-synapse like program###
+
